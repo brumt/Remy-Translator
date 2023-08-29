@@ -7,6 +7,7 @@ import axios from "axios";
 import AbortController from 'abort-controller';
 
 
+global.AbortController = AbortController
   
 
 const openai = new OpenAIApi({
