@@ -37,9 +37,6 @@ app.post('/', async (req, res) => {
     try {
         const prompt = req.body.prompt;
 
-        const controller = new AbortController();
-        const signal = controller.signal;
-
         const response = await axios.post(
             'https://api.openai.com/v1/chat/completions',
             {
