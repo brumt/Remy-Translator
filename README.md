@@ -10,3 +10,4 @@ JavaScript, Node and OpenAI project - Language-into-French Translator AI
 
 ### Interface
 See the project's view on vercel: https://remy-translator.vercel.app/
+Backend here: https://testremy.onrender.com
