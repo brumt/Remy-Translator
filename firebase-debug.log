@@ -1,0 +1,43 @@
+[debug] [2023-08-29T03:24:00.113Z] ----------------------------------------------------------------------
+[debug] [2023-08-29T03:24:00.117Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bruna\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-29T03:24:00.118Z] CLI Version:   12.5.2
+[debug] [2023-08-29T03:24:00.118Z] Platform:      win32
+[debug] [2023-08-29T03:24:00.119Z] Node Version:  v18.16.1
+[debug] [2023-08-29T03:24:00.121Z] Time:          Tue Aug 29 2023 00:24:00 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-08-29T03:24:00.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-29T03:24:00.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-29T03:24:00.318Z] > authorizing via signed-in user (brunamania1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bruna\OneDrive\Área de Trabalho\open_ai_code
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-08-29T03:25:59.636Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-08-29T03:25:59.636Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"remy.","name":"remy"}
+[debug] [2023-08-29T03:26:00.949Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2023-08-29T03:26:00.950Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id must be at least 6 characters long"},{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2023-08-29T03:26:01.183Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\bruna\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\bruna\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
