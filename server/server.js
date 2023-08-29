@@ -14,7 +14,7 @@ const openai = new OpenAIApi({
 
 
 const openaiApiKey = process.env.OPENAI_API_KEY;
-console.log('Valor da OPENAI_API_KEY:', openaiApiKey);
+
 
 const app = express();
 
