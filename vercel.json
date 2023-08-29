@@ -1,11 +1,11 @@
 {
-    "builds": [
-    {
-        "src": "/server/server.js",
-        "use": "@vercel/node"
-    }
-    ],
+    "functions": {
+      "server": {
+        "runtime": "@vercel/node"
+      }
+    },
     "routes": [
-        {"source": "/(.*)", "destination": "/server/server.js"}
-      ]      
-}
+      { "src": "/server/(.*)", "dest": "server/server.js" }
+    ]
+  }
+  
