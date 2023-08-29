@@ -1,5 +1,11 @@
 {
-    "rewrites": [
+    "builds": [
+    {
+        "src": "./server.js",
+        "use": "@vercel/node"
+    }
+    ],
+    "routes": [
         {"source": "/(.*)", "destination": "/server/server.js"}
       ]      
 }
