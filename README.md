@@ -1,6 +1,6 @@
 # Rémy - Translator AI
 
-JavaScript, Node and OpenAI project 
+JavaScript, Node and OpenAI project - Language-into-French Translator AI
 
 ## Introducing Remy 
 
