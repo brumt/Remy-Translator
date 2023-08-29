@@ -19,7 +19,7 @@ const openaiApiKey = process.env.OPENAI_API_KEY;
 const app = express();
 
 const corsOptions = {
-    origin: ['https://remy-translator.vercel.app']
+    origin: ['http://localhost:5173', 'https://remy-translator.vercel.app']
   };
   
 app.use(cors(corsOptions));
