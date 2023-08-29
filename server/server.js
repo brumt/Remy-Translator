@@ -69,6 +69,7 @@ app.post('/', async (req, res) => {
             bot: response.data.choices[0].message.content
         });
     } catch (error) {
+        console.error('Error fetching data:', error);
         console.log('Error:', error.message);
         console.log('Error Stack:', error.stack);
         res.status(500).send({ error });
