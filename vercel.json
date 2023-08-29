@@ -6,6 +6,6 @@
     }
     ],
     "routes": [
-        {"source": "/(.*)", "destination": "/server/server.js"}
+        {"src": "/(.*)", "destination": "/server/server.js"}
       ]      
 }
