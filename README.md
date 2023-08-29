@@ -2,8 +2,6 @@
 
 JavaScript, Node and OpenAI project 
 
-This project's purpose is to serve as a demonstration of my skills and coding capabilities.
-
 ## Introducing Remy 
 
 🗼Your Language-into-French Translator AI, your ultimate conduit into the captivating world of the French language. With Remy by your side, the art of linguistic transformation is at your fingertips. 
