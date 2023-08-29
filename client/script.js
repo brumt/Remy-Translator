@@ -94,7 +94,7 @@ messageDiv.innerHTML = '';
 
 if(response.ok){
   const data = await response.json();
-  console.log(data)
+
   const parsedData = data.bot.trim()
 
   console.log(parsedData)
