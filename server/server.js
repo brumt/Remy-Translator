@@ -4,6 +4,9 @@ dotenv.config()
 import cors from 'cors';
 import OpenAIApi from 'openai';
 import axios from "axios";
+import AbortController from 'abort-controller';
+
+
   
 
 const openai = new OpenAIApi({
