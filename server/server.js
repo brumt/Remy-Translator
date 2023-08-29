@@ -4,7 +4,6 @@ dotenv.config()
 import cors from 'cors';
 import OpenAIApi from 'openai';
 import axios from "axios";
-import 'abortcontroller-polyfill';
 
   
 
